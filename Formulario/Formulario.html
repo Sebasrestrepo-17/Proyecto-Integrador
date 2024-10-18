@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/EstiloPagina(CSS)/formulario.css">
+    <link rel="shortcut icon" href="images/Formulario.ico" type="image" >
+</head>
+
+
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="images/logo inmobiliaria.jpeg" alt="InmobiliariaSegura"> 
+        </div>
+        
+        <H1>Inmobiliaria Segura</H1>
+        <h2>Por favor ingrese sus datos</h2>
+        <p>Con el fin de enviarle informacion sobre sus intereses</p>
+        <nav class="funciones">
+            <a href="/Inicio/index.html">Inicio</a>
+            <a href="">Propiedades</a>
+            <a href="">Contacto</a>
+            <a href="">Ingreso</a>
+        </nav>
+    </header>
+
+
+
+    <Main>
+        
+<p>Este formulario se ha realizado con el fin de que usted como cliente nos facilite sus datos de contacto para brindarle la información que ha solicitado.</p>
+
+
+
+        <form action="">Rellene los siguientes datos por favor:
+            <br>
+        <label for="nombre">Ingrese su nombre completo</label>
+        <input type="text" name="nombre" id="nombre" maxlength="100" placeholder="Nombre Completo">
+        <br>
+        <label for="email">Ingrese su correo electronico</label>
+        <input type="email" name="email" id="email" maxlength="100" placeholder="Correo Electronico">
+        <br>
+        <label for="telefono">Ingrese su numero de telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono" maxlength="10" pattern="[0-9]{10}">
+        <br>
+<label for="barrio">¿Cual es zona de interes?</label>
+<select name="lbarrio" id="lbarrio">
+        <option value="barrio">Medellin</option>
+        <option value="barrio">Bello</option>
+        <option value="barrio">Envigado</option>
+        <option value="barrio">Copacabana</option>
+        <option value="barrio">Poblado</option>
+</select>
+<!-- Botones del formulario -->
+<br>
+<input type="submit" value="Enviar formulario">
+<br>
+<input type="reset" value="Reiniciar">
+
+</form>
+
+<p>Una vez rellenado este formulario nos comunicaremos con usted en un transcurso de 24 horas</p>
+
+
+
+    </Main>
+    <br>
+    <footer>
+        <P>Contactenos a través de:</P>
+        <p>Whatsapp: <a href="Contacto">311 297 4114</a></p>
+        <p>Correo Electronico: <a href="Correo">InmobiliariaSegura@gmail.com</a></p>
+        <p>Información sobre nosotros: <a href="Sobre nosotros">¿Quienes somos?</a></p>
+
+    </footer>
+</body>
+</html>
