@@ -1,0 +1,20 @@
+*{
+
+}
+.logo img {
+    width: 100px;
+    display: flex;
+  
+ 
+    border-radius: 20%;
+ box-shadow: #ffff;
+}
+
+header{
+    background-color: rgb(69, 69, 196);
+    text-align: center;
+    color: #ffff;
+    display: block;
+    
+    padding: 0%;
+}
