@@ -96,3 +96,93 @@ footer {
     footer a:hover {
     color: #d0e0f0;
     }
+
+
+
+
+    /*-----------------------------------------------------------------------*/
+
+    .login-container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px; /* Ancho máximo del formulario */
+        text-align: center;
+    }
+    
+    /* Estilo para los títulos */
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    /* Estilo de los campos de entrada */
+    .login-container {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    input[type="email"],
+    input[type="password"],
+    input[type="button"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        border-color: #0056b3;
+        outline: none;
+    }
+    
+    /* Estilo para los botones */
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #0056b3;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #004494;
+    }
+    
+    /* Estilo para los enlaces */
+    a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Estilo para los mensajes de error */
+    .error-message {
+        color: red;
+        margin-top: 10px;
+    }
+    
+    /* Contenedor de recuperación de contraseña */
+    .recover-container {
+        display: none;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
