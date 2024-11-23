@@ -39,19 +39,19 @@
 
 
 
-        <form action="">Rellene los siguientes datos por favor:
+        <form id="formulario" onsubmit="guardarInformacion(event)">Rellene los siguientes datos por favor:
             <br>
         <label for="nombre">Ingrese su nombre completo</label>
-        <input type="text" name="nombre" id="nombre" maxlength="100" placeholder="Nombre Completo">
+        <input type="text" name="nombre" id="nombre" maxlength="100" placeholder="Nombre Completo" required>
         <br>
         <label for="email">Ingrese su correo electronico</label>
-        <input type="email" name="email" id="email" maxlength="100" placeholder="Correo Electronico">
+        <input type="email" name="email" id="email" maxlength="100" placeholder="Correo Electronico" required>
         <br>
         <label for="telefono">Ingrese su numero de telefono</label>
-        <input type="tel" name="telefono" id="telefono" placeholder="Telefono" maxlength="10" pattern="[0-9]{10}">
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono" maxlength="10" pattern="[0-9]{10}" required>
         <br>
 <label for="barrio">¿Cual es zona de interes?</label>
-<select name="lbarrio" id="lbarrio">
+<select name="lbarrio" id="lbarrio" required>
         <option value="barrio">Medellin</option>
         <option value="barrio">Bello</option>
         <option value="barrio">Envigado</option>
@@ -66,11 +66,16 @@
 
 </form>
 
+<div id="respuesta"></div>
+
 <p>Una vez rellenado este formulario nos comunicaremos con usted en un transcurso de 24 horas</p>
 
 
 
     </main>
+
+    <script src="../controllers/formulario.js"></script>
+
     <br>
     <footer>
         <P>Contactenos a través de:</P>
