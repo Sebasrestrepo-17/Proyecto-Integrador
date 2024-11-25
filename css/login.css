@@ -110,7 +110,6 @@ footer {
         width: 100%;
         max-width: 400px; /* Ancho máximo del formulario */
         text-align: center;
-        
     }
     
     /* Estilo para los títulos */
@@ -124,7 +123,6 @@ footer {
     .login-container {
         margin-bottom: 15px;
         text-align: left;
-        
     }
     
     input[type="email"],
