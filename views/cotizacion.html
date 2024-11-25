@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización Inmobiliaria Segura</title>
+    <link rel="stylesheet" href="../css/cotizacion.css"> 
+    <link rel="shortcut icon" href="/img/cotizacion.ico" type="image" >
+</head>
+<body>
+
+    
+  <header>
+    <div class="logo">
+      <a href="./index.html"><img src="/img/logo inmobiliaria.jpeg" alt=""></a>
+    </div>
+
+    <div class="Cabecera">
+      
+    <h1>Inmobiliaria Segura</h1>
+    <h3>¡Somos la mejor opcion para ti y tu comodidad!</h3>
+    <nav class="enlaces">
+      <a href="./index.html">Inicio</a>
+      <a href="./contacto.html">Contacto</a>
+      <a href="./login.html">Ingreso</a>
+      <a href="./Formulario.html">Deseo informacion</a>
+    </nav>
+    </div>
+
+  </header>
+
+<div class="container">
+    <h1>Cotización Propiedad</h1>
+    <form id="cotizacionForm">
+        <label for="valorPropiedad">Valor de la propiedad :</label>
+        <input type="number" id="valorPropiedad" required>
+
+        <label for="tasaInteres">Tasa de interés anual (%):</label>
+        <input type="number" id="tasaInteres" required>
+
+        <label for="plazo">Plazo (años):</label>
+        <input type="number" id="plazo" required>
+
+        <button type="button" onclick="calcularCotizacion()">Calcular Cotización</button>
+    </form>
+
+    <div id="resultado" class="result" style="display: none;">
+        <h3>Resultado de la Cotización</h3>
+        <p id="totalPagar"></p>
+        <p id="cuotaMensual"></p>
+    </div>
+</div>
+<br>
+
+<footer>
+    <div>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-twitter"></i> 
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fab fa-linkedin"></i> 
+        </a>
+    </div>
+    <P>Contactenos a través de:</P>
+    <p>Whatsapp: <a href="Contacto">311 297 4114</a></p>
+    <p>Correo Electronico: <a href="Correo">InmobiliariaSegura@gmail.com</a></p>
+    <p>Información sobre nosotros: <a href="Sobre nosotros">¿Quienes somos?</a></p>
+
+</footer>
+
+<script src="../controllers/cotizacion.js"></script> 
+</body>
+</html>
