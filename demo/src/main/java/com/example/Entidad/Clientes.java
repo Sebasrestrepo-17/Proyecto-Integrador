@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.*;
 
 
- @Entity
+ /* @Entity
  @Table(name = "propiedad")
  public class InmobiliariaSegura {
     
@@ -55,9 +55,9 @@ import javax.persistence.*;
      public void setPrecio(String precio){
          this.precio = precio;
      }
- }
+ } */
 
-/* @Entity
+ @Entity
     @Table(name = "cliente")
 public class Clientes {
     
@@ -78,7 +78,7 @@ public class Clientes {
     private String telefono;
     
 
-     Getters y Setters
+     //Getters y Setters
 
     public long getId() {
         return id;
@@ -125,5 +125,5 @@ public class Clientes {
 
 
 
-} */
+} 
 
