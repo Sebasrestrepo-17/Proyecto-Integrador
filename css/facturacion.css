@@ -1,0 +1,77 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9; /* Color de fondo suave */
+}
+
+/* Contenedor principal del formulario y factura */
+.container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ddd; /* Borde del cuadro */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos dentro del contenedor */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo para las etiquetas de los campos */
+.label {
+    margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px; /* Ajustar el ancho de las etiquetas */
+}
+
+/* Contenedor de entrada de datos (inputs y textarea) */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Estilo para los campos de entrada */
+.input-group input, .input-group textarea {
+    padding: 8px;
+    width: calc(100% - 20px); /* 100% menos el espacio de los márgenes */
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes redondeados en campos de entrada */
+}
+
+/* Estilo para el botón de descarga */
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Bordes redondeados en el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos para el cuadro de la factura */
+#factura {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ddd; /* Borde del cuadro */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Ancho del cuadro de la factura */
+    margin-left: auto;
+    margin-right: auto; /* Centrar la factura en la pantalla */
+}
+
+/* Estilo para los textos dentro del cuadro */
+#factura p {
+    margin: 5px 0;
+    font-size: 14px;
+}
