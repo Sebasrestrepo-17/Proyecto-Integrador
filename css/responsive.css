@@ -1,0 +1,55 @@
+
+/* Estilos para pantallas pequeñas (móviles, hasta 768px de ancho) */
+@media (max-width: 768px) {
+    /* Hacer que las columnas se apilen verticalmente en pantallas pequeñas */
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-content .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Hacer que el texto y los botones se ajusten en pantallas más pequeñas */
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Estilos para tablets (pantallas medianas, hasta 1024px de ancho) */
+@media (max-width: 1024px) {
+    /* Ajustar la disposición de las columnas en tablets */
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Ajustar los tamaños de fuente para tablets */
+    .header h1 {
+        font-size: 2em;
+    }
+}
+
+/* Opcional: Estilos para pantallas grandes (PC y tabletas grandes) */
+@media (min-width: 1025px) {
+    /* Aquí puedes agregar estilos adicionales para pantallas grandes */
+    .main-content {
+        display: flex;
+    }
+
+    .main-content .column {
+        width: 48%;
+        margin-bottom: 0;
+    }
+}
